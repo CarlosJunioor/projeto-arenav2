@@ -89,14 +89,14 @@ p {
 }
 
 #img1{
-    background-image: url('../img/img8.jpg');
+    background-image: url("../img/img8.jpg");
 }
 #img2{
-    background-image: url('../img/img5.jpeg');
+    background-image: url("../img/img7.jpeg");
 }
 
 #img3{
-    background-image: url('../img/img6.jpeg');
+    background-image: url("../img/img5.jpeg");
 }
 
 
