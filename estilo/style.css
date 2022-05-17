@@ -23,6 +23,11 @@
     box-sizing: border-box;
 
 }
+
+body{
+    min-height: 90vh;
+}
+
 header{
     position: relative;
     margin: auto;
@@ -30,6 +35,7 @@ header{
     color: white;
     text-align: center;
     height:230px;
+
 }
 
 h1{
@@ -42,15 +48,17 @@ header > h1{
     position: absolute;
     left: 50%;
     top: 50%;
+    font-variant: small-caps;
 
     transform: translate(-50%, -50%);
 }
 
-#subtitle{
+header > p {
     position: absolute;
     left: 50%;
     top: 75%;
     transform: translate(-50%, -50%);
+
 }
 
 p {
@@ -67,11 +75,11 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
 }
 
 .normal{
     background-color: white;
-    box-shadow: 10px 10px;
     height: 450px;
 }
 
@@ -91,8 +99,11 @@ p {
     background-image: url("/img/img6.jpeg");
 }
 
-footer{
-    color: black;
-    margin-bottom: 0px;
+
+.footer{
+    margin-bottom: auto;
+    background-color: black;
+   text-align: center;
+   color: white;
 
 }
