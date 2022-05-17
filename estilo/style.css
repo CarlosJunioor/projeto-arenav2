@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Aldo';
+    src: url("../fontes/AldotheApache.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Koulen';
+    src: url("../fontes/Koulen-Regular.ttf") format('opentype');
+}
+
+:root{
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Aldo', 'cursive';
+    --fonte-menu: 'Koulen', 'cursive';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    position: relative;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height:230px;
+}
+
+h1{
+    font-family: var(--fonte-destaque);
+    padding: 10px;
+}
+header > h1{
+    font-size: 5em;
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#subtitle{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    padding: 20px;
+    word-spacing: 3px;
+    width: 500px;
+}
+
+.parallax{
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal{
+    background-color: white;
+    box-shadow: 10px 10px;
+    height: 450px;
+}
+
+.head{
+    font-size: 3em;
+    padding: 20px;
+}
+
+#img1{
+    background-image: url("/img/img8.jpg");
+}
+#img2{
+    background-image: url("/img/img5.jpeg");
+}
+
+#img3{
+    background-image: url("/img/img6.jpeg");
+}
+
+footer{
+    color: black;
+    margin-bottom: 0px;
+
+}
