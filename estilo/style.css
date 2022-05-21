@@ -100,10 +100,12 @@ p {
 }
 
 
-.footer{
-    margin-bottom: auto;
+footer{
+    position: sticky;
+      bottom: 0;
     background-color: black;
    text-align: center;
    color: white;
+   width:100%;  
 
 }
